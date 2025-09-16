@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puppy Paradise</title>
+  <meta name="description" content="Find adorable Yorkie and Maltese puppies for sale. Puppy Paradise connects loving families with healthy, playful puppies.">
+  <meta name="keywords" content="Yorkie puppies, Maltese puppies, puppies for sale, puppy adoption, Puppy Paradise">
+  <meta name="author" content="Puppy Paradise">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🐾 Puppy Paradise 🐾</h1>
+    <nav>
+      <a href="#yorkie">Yorkies</a>
+      <a href="#maltese">Maltese</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Find Your New Best Friend</h2>
+    <p>Adorable Yorkie and Maltese puppies waiting for loving homes ❤</p>
+  </section>
+
+  <!-- Yorkie Section -->
+  <section id="yorkie" class="puppy-section">
+    <h2>Yorkie Puppies</h2>
+    <p>Playful, tiny, and full of love 🐶</p>
+    <img src="yorkie.jpg" alt="Cute Yorkie Puppy">
+  </section>
+
+  <!-- Maltese Section -->
+  <section id="maltese" class="puppy-section">
+    <h2>Maltese Puppies</h2>
+    <p>Fluffy, gentle, and affectionate 🐾</p>
+    <img src="maltese.jpg" alt="Adorable Maltese Puppy">
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Buy a Puppy / Contact Us</h2>
+    <p>Fill out the form below and we’ll get back to you 🐾</p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+      <input type="hidden" name="_redirect" value="https://your-username.github.io/your-repo-name/thankyou.html">
+
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="puppy">Choose Puppy</label>
+      <select id="puppy" name="puppy" required>
+        <option value="">-- Select Puppy --</option>
+        <option value="yorkie">Yorkie</option>
+        <option value="maltese">Maltese</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Puppy Paradise | Made with ❤</p>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">💬</a>
+
+  <!-- Floating Call Button -->
+  <a href="tel:+1234567890" class="call-float">📞</a>
+</body>
+</html>
